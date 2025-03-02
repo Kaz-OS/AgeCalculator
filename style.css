@@ -1,0 +1,31 @@
+body {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    margin-top: 10rem;
+    background-color: hsl(0deg, 0%, 94%);
+}
+
+.age {
+    display: block;
+    border-radius: 10px;
+    background-color: white;
+}
+
+.Input {
+    display: flex;
+    gap: 30px;
+
+    & label {
+        display: flex;
+        flex-direction: column;
+        font-weight: bold;
+
+        & input {
+            width: 70px;
+            height: 30px;
+            border-radius: 5px;
+            border-width: 1px;
+        }
+    }
+}
